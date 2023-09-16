@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+html{
+    background-image: url(corrida.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+
+}
+
+.container{
+    background-color: #fefefe;
+    border: 2px solid #fefefe;
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    margin-top: 16%;
+    margin-left: 8%;
+    text-align: center;
+    box-shadow: 0 0 10px;
+    
+}
+
+.relogio{
+    font-size: 40px;
+    color: green;
+    
+
+}
+
+.botoes{
+    margin-top: 30px;
+}
+
+.botoes,.iniciar,.encerrar{
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.iniciar{
+    background-color: green;
+    font-size: 20px;
+}
+
+.encerrar{
+    background-color: red;
+    font-size: 20px;
+
+}
+
+.pausar{
+    background-color: orange;
+    content: "pausar";
+    font-size: 20px;
+}
